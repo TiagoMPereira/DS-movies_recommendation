@@ -77,7 +77,7 @@ def data_preprocessor(data: pd.DataFrame) -> pd.DataFrame:
         'production_companies', 'belongs_to_collection', 'poster_path',
         'imdb_id', 'tmdb_id']]
 
-    data_model = data[['release_year', 'runtime', 'vote_average', 'original_language',
+    data_model = data[['release_year', 'runtime', 'vote_average',
         'tmdb_id', 'genre_action', 'genre_adventure',
         'genre_animation', 'genre_comedy', 'genre_crime', 'genre_documentary',
         'genre_drama', 'genre_family', 'genre_fantasy', 'genre_foreign',
